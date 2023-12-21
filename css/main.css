@@ -1,1 +1,154 @@
-/*# sourceMappingURL=main.css.map */
+/* Core style */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+textarea:focus,
+select:focus {
+  outline: none !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.header {
+  background: #fff;
+  padding-top: 24px;
+}
+.header .container {
+  max-width: 1240px;
+}
+.header .header-logo {
+  display: flex;
+  gap: 59px;
+}
+.header .header-logo a {
+  color: #FF4C34;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 900;
+}
+.header .header-inputs {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header .header-inputs .header-center {
+  width: 351px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.header .header-inputs .header-center img {
+  position: absolute;
+  left: 16px;
+}
+.header .header-inputs .header-center input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+  border: 1px solid #FF4C34;
+  border-radius: 15px;
+  padding-left: 47px;
+}
+.header .header-inputs .header-center button {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 15px;
+  background: #FF4C34;
+}
+.header .header-inputs .header-button {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header .header-inputs .header-button button {
+  border-radius: 15px;
+  background: #FF4C34;
+  color: #fff;
+  width: 283px;
+  height: 40px;
+}
+.header .header-inputs .header-button img {
+  position: absolute;
+  left: 18px;
+  width: 16px;
+  height: 16px;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+}
+
+.login button {
+  color: #fff;
+  padding: 11px 29px 10px 30px;
+  background: #FF4C34;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 15px;
+  border: none;
+}
+
+.navbar {
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */
