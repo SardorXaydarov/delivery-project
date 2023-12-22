@@ -1,0 +1,8 @@
+@use '../abstracts/variables';
+.btnn{
+    color: variables.$white;
+    background: variables.$lightred;
+    border: none;
+    padding: 11px 20px 12px 20px;
+    border-radius: 15px;
+}

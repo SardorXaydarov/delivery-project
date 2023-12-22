@@ -58,12 +58,22 @@ body {
   font-weight: 400;
 }
 
+.btnn {
+  color: #fff;
+  background: #FF4C34;
+  border: none;
+  padding: 11px 20px 12px 20px;
+  border-radius: 15px;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0;
+}
+
 .header {
   background: #fff;
   padding-top: 24px;
-}
-.header .container {
-  max-width: 1240px;
 }
 .header .header-logo {
   display: flex;
@@ -81,7 +91,7 @@ body {
   gap: 40px;
 }
 .header .header-inputs .header-center {
-  width: 351px;
+  width: 381px;
   height: 40px;
   position: relative;
   display: flex;
@@ -95,19 +105,21 @@ body {
   height: 100%;
   width: 100%;
   border: none;
-  padding-left: 10px;
   border: 1px solid #FF4C34;
   border-radius: 15px;
   padding-left: 47px;
+  margin-right: 30px;
 }
 .header .header-inputs .header-center button {
   height: 100%;
+  width: 72px;
   position: absolute;
   right: 0;
   color: #fff;
   font-size: 14px;
   border-radius: 15px;
   background: #FF4C34;
+  padding: 12px 13px;
 }
 .header .header-inputs .header-button {
   display: flex;
@@ -151,4 +163,146 @@ body {
 
 .navbar {
   padding: 0;
+}
+
+.services {
+  padding-top: 54px;
+}
+.services .service-card {
+  width: 400px;
+  height: 201px;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.services .card-one {
+  background: #3472EA;
+}
+.services .card-one .card-one__bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.services .card-one .card-one__bg .c-one-img {
+  position: absolute;
+  left: 41px;
+}
+.services .card-one .service-card__content {
+  padding: 16px 0 11px 16px;
+}
+.services .card-one .service-card__content .title {
+  margin-bottom: 4px;
+}
+.services .card-one .service-card__content .btitle {
+  margin-bottom: 8px;
+}
+.services .card-one .service-card__content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.services .card-one .service-card__content p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+.card-two {
+  background: #AF30C3;
+}
+.card-two .service-card__content {
+  text-align: right;
+  padding: 15px 0 15px 0;
+}
+.card-two .service-card__content .title {
+  padding-right: 42px;
+}
+.card-two .service-card__content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 143.9%;
+  text-transform: uppercase;
+}
+.card-two .service-card__content .btitle {
+  margin-bottom: 4px;
+  padding-right: 18px;
+}
+.card-two .service-card__content .item-price {
+  gap: 11px;
+  padding-right: 16px;
+  margin-bottom: 26px;
+}
+.card-two .service-card__content .item-price p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-two .service-card__content .price {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.card-two .service-card__content .btnn {
+  margin-right: 70px;
+}
+.card-two .card-two__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card-two .card-two__bg .c-two-img {
+  z-index: 2;
+  position: absolute;
+}
+.card-two .card-two__bg .c-two-bg {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  top: 0;
+}
+
+.card-three {
+  background: #2FAAD1;
+}
+.card-three .c-three-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.card-three .service-card__content {
+  padding: 10px 0 11px 16px;
+}
+.card-three .service-card__content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.card-three .service-card__content .title {
+  z-index: 3;
+  position: relative;
+}
+.card-three .service-card__content .btitle {
+  width: 188px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.card-three p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.c-three-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.c-three-img__two {
+  position: absolute;
+  top: 59px;
+  right: 0;
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */
