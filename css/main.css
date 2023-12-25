@@ -105,6 +105,7 @@ body {
 .header .header-inputs .header-center img {
   position: absolute;
   left: 16px;
+  cursor: pointer;
 }
 .header .header-inputs .header-center input {
   height: 100%;
@@ -375,4 +376,78 @@ body {
 }
 .nav-buttons .sorting:hover svg path {
   stroke: #1E1E1E;
+}
+
+.aksiya {
+  margin-top: 2rem;
+}
+.aksiya .title-box {
+  margin-bottom: 1.5rem;
+}
+.aksiya .aksiya-boxes .aksiya-box {
+  max-width: 235px;
+}
+.aksiya .aksiya-boxes .aksiya-box .aksiya-box__img {
+  position: relative;
+}
+.aksiya .aksiya-boxes .aksiya-box .aksiya-top {
+  border-radius: 15px;
+  background: #00AE63;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  font-size: 9px;
+  font-weight: 600;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+.aksiya .aksiya-boxes .aksiya-box .aksiya-bottom {
+  border-radius: 15px 15px 15px 0;
+  background: #FFC11E;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  font-size: 9px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.aksiya-box .aksiya-box__info {
+  padding: 8px 0 12px 0;
+}
+.aksiya-box .aksiya-box__info .info-title {
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.aksiya-box .aksiya-box__info .pizza-info {
+  gap: 8px;
+  align-items: center;
+}
+.aksiya-box .aksiya-box__info .rating {
+  gap: 4px;
+}
+.aksiya-box .aksiya-box__info .rating p {
+  color: #AFAFAF;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.price .price-black {
+  width: 15px;
+  height: 15px;
+  color: #1E1E1E;
+}
+.price .price-gray {
+  width: 15px;
+  height: 15px;
+  color: #AFAFAF;
 }/*# sourceMappingURL=main.css.map */
