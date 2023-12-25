@@ -5,4 +5,8 @@
     border: none;
     padding: 11px 20px 12px 20px;
     border-radius: 15px;
+    transition: all .2s ease;
+}
+.btnn:hover{
+    background: #ff6f5c;
 }

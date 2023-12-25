@@ -55,7 +55,11 @@
                 font-size: 14px;
                 border-radius: 15px;
                 background: #FF4C34;
+                transition: all .2s ease;
                 padding: 12px 13px;
+                &:hover{
+                    background: #ff6f5c;
+                }
             }
         }
 

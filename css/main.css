@@ -64,6 +64,11 @@ body {
   border: none;
   padding: 11px 20px 12px 20px;
   border-radius: 15px;
+  transition: all 0.2s ease;
+}
+
+.btnn:hover {
+  background: #ff6f5c;
 }
 
 .container {
@@ -119,7 +124,11 @@ body {
   font-size: 14px;
   border-radius: 15px;
   background: #FF4C34;
+  transition: all 0.2s ease;
   padding: 12px 13px;
+}
+.header .header-inputs .header-center button:hover {
+  background: #ff6f5c;
 }
 .header .header-inputs .header-button {
   display: flex;
