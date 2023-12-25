@@ -131,21 +131,25 @@
 .card-three {
     .service-card__content {
         padding: 10px 0 11px 16px;
-        h2{
+
+        h2 {
             font-size: 20px;
             font-weight: 700;
             text-transform: uppercase;
         }
-        .title{
+
+        .title {
             z-index: 3;
             position: relative;
         }
-        .btitle{
+
+        .btitle {
             width: 188px;
             margin-top: 12px;
             margin-bottom: 4px;
         }
     }
+
     p {
         font-size: 14px;
         font-weight: 400;
@@ -168,3 +172,70 @@
 
 // navigation section styles
 
+.navigation {
+    margin-top: 4rem;
+
+    .container {
+        background: variables.$lightred;
+        padding: 12px 8px;
+        border-radius: 15px;
+    }
+
+    .nav-items {
+        display: flex;
+        gap: 7px;
+
+        .nav-linkk {
+            color: variables.$white;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all .2s ease;
+
+            &.active {
+                color: #1E1E1E;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 15px;
+                background: variables.$white;
+            }
+            &:hover{
+                color: #1E1E1E;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 15px;
+                background: variables.$white;
+            }
+        }
+        
+        .more:hover svg path{
+            stroke: #1E1E1E;
+        }
+    }
+}
+
+.nav-buttons {
+    gap: 8px;
+
+    .nav-button {
+        color: variables.$white;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        border-radius: 15px;
+        border: 1px solid #FFF;
+        padding: .5rem 1rem;
+        transition: all .2s linear;
+        &:hover{
+            background: variables.$white;
+            color: variables.$black;
+        }
+    }
+    
+    .more:hover svg path{
+        stroke: variables.$black;
+    }
+    .sorting:hover svg path{
+        stroke:variables.$black
+    }
+}
