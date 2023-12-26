@@ -253,6 +253,45 @@
 
 
 // aksiya section styles
+.aksiya-boxes {
+    .aksiya-box {
+        max-width: 235px;
+
+        .aksiya-box__img {
+            position: relative;
+        }
+
+        .aksiya-top {
+            border-radius: 15px;
+            background: #00AE63;
+            color: variables.$white;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px;
+            font-size: 9px;
+            font-weight: 600;
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
+
+        .aksiya-bottom {
+            border-radius: 15px 15px 15px 0;
+            background: #FFC11E;
+            color: variables.$white;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px;
+            font-size: 9px;
+            font-weight: 600;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+    }
+}
 .aksiya {
     margin-top: 2rem;
 
@@ -260,45 +299,7 @@
         margin-bottom: 1.5rem;
     }
 
-    .aksiya-boxes {
-        .aksiya-box {
-            max-width: 235px;
-
-            .aksiya-box__img {
-                position: relative;
-            }
-
-            .aksiya-top {
-                border-radius: 15px;
-                background: #00AE63;
-                color: variables.$white;
-                display: flex;
-                align-items: center;
-                gap: 6px;
-                padding: 6px;
-                font-size: 9px;
-                font-weight: 600;
-                position: absolute;
-                left: 8px;
-                top: 8px;
-            }
-
-            .aksiya-bottom {
-                border-radius: 15px 15px 15px 0;
-                background: #FFC11E;
-                color: variables.$white;
-                display: flex;
-                align-items: center;
-                gap: 6px;
-                padding: 6px;
-                font-size: 9px;
-                font-weight: 600;
-                position: absolute;
-                bottom: 0px;
-                right: 0px;
-            }
-        }
-    }
+    
 }
 
 .aksiya-box {
@@ -526,5 +527,13 @@
             position: relative;
             top: -7px;
         }
+    }
+}
+
+
+.all-restourant{
+    margin-top: 3rem;
+    .title-box{
+        margin-bottom: 1.5rem;
     }
 }

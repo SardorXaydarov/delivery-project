@@ -384,19 +384,13 @@ body {
   stroke: #1E1E1E;
 }
 
-.aksiya {
-  margin-top: 2rem;
-}
-.aksiya .title-box {
-  margin-bottom: 1.5rem;
-}
-.aksiya .aksiya-boxes .aksiya-box {
+.aksiya-boxes .aksiya-box {
   max-width: 235px;
 }
-.aksiya .aksiya-boxes .aksiya-box .aksiya-box__img {
+.aksiya-boxes .aksiya-box .aksiya-box__img {
   position: relative;
 }
-.aksiya .aksiya-boxes .aksiya-box .aksiya-top {
+.aksiya-boxes .aksiya-box .aksiya-top {
   border-radius: 15px;
   background: #00AE63;
   color: #fff;
@@ -410,7 +404,7 @@ body {
   left: 8px;
   top: 8px;
 }
-.aksiya .aksiya-boxes .aksiya-box .aksiya-bottom {
+.aksiya-boxes .aksiya-box .aksiya-bottom {
   border-radius: 15px 15px 15px 0;
   background: #FFC11E;
   color: #fff;
@@ -423,6 +417,13 @@ body {
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+
+.aksiya {
+  margin-top: 2rem;
+}
+.aksiya .title-box {
+  margin-bottom: 1.5rem;
 }
 
 .aksiya-box .aksiya-box__info {
@@ -621,4 +622,11 @@ body {
   line-height: 143.9%;
   position: relative;
   top: -7px;
+}
+
+.all-restourant {
+  margin-top: 3rem;
+}
+.all-restourant .title-box {
+  margin-bottom: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
