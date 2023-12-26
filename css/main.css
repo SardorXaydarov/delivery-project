@@ -175,6 +175,12 @@ body {
   padding: 0;
 }
 
+.title-box .subtitle {
+  color: #1E1E1E;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .services {
   padding-top: 54px;
 }
@@ -430,7 +436,6 @@ body {
 }
 .aksiya-box .aksiya-box__info .pizza-info {
   gap: 8px;
-  align-items: center;
 }
 .aksiya-box .aksiya-box__info .rating {
   gap: 4px;
@@ -439,15 +444,181 @@ body {
   color: #AFAFAF;
   font-size: 12px;
   font-weight: 400;
+  width: 17px;
+  height: 15px;
+  line-height: 15px;
 }
 
-.price .price-black {
+.price svg {
   width: 15px;
   height: 15px;
-  color: #1E1E1E;
 }
-.price .price-gray {
-  width: 15px;
-  height: 15px;
-  color: #AFAFAF;
+
+.offers {
+  margin-top: 3rem;
+}
+.offers .offers-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.offers .offers-boxes .offer-box {
+  overflow: hidden;
+  width: 295px;
+  height: 362px;
+  border-radius: 15px;
+  padding: 20px 12px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+.offers .offers-boxes .offer-box .top-left-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.offers .offers-boxes .offer-box .bottom-right-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.offers .offers-boxes .offer-box h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 143.9%;
+}
+.offers .offers-boxes .offer-box h3 span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 143.9%;
+}
+.offers .offers-boxes .offer-box .offer-box__bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px 0 25px 0;
+}
+.offers .offers-boxes .offer-box .offers-footer h2 {
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 143.9%;
+  text-transform: uppercase;
+}
+.offers .offers-boxes .box-one {
+  background: #3472EA;
+}
+.offers .offers-boxes .box-one h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 143.9%;
+  text-transform: uppercase;
+}
+.offers .offers-boxes .box-two {
+  background: #AF30C3;
+}
+.offers .offers-boxes .box-three {
+  background: #EF1D00;
+}
+.offers .offers-boxes .box-four {
+  background: #FF008B;
+}
+
+.foods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+.foods .food {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.foods .food .food-list-style {
+  position: absolute;
+  top: 11px;
+  transform: translateY(-50%);
+  left: 0;
+  background: #50005E;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.foods .food a {
+  margin-left: 1rem;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 143.9%;
+}
+
+.mb-1rem {
+  margin-bottom: 1rem;
+}
+
+.box-two .food-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.box-three .food-img {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+}
+
+.box-four .food-img {
+  position: absolute;
+  bottom: 2rem;
+  z-index: -1;
+  right: 0;
+}
+
+.box-two,
+.box-three,
+.box-four {
+  position: relative;
+}
+.box-two .title,
+.box-three .title,
+.box-four .title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.box-two .price-item,
+.box-three .price-item,
+.box-four .price-item {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143.9%;
+  margin-bottom: 47px;
+}
+.box-two .price-item span,
+.box-three .price-item span,
+.box-four .price-item span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 143.9%;
+  position: relative;
+  top: -7px;
 }/*# sourceMappingURL=main.css.map */

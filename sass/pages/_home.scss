@@ -1,5 +1,13 @@
 @use '../abstracts/variables';
 
+.title-box {
+    .subtitle {
+        color: #1E1E1E;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
 .services {
     padding-top: 54px;
 
@@ -305,7 +313,6 @@
 
         .pizza-info {
             gap: 8px;
-            align-items: center;
         }
 
         padding: 8px 0 12px 0;
@@ -317,22 +324,207 @@
                 color: variables.$gray;
                 font-size: 12px;
                 font-weight: 400;
+                width: 17px;
+                height: 15px;
+                line-height: 15px;
             }
         }
 
     }
 }
 
-.price {
-    .price-black {
-        width: 15px;
-        height: 15px;
-        color: variables.$black;
+.price svg {
+    width: 15px;
+    height: 15px;
+}
+
+
+.offers {
+    margin-top: 3rem;
+
+    .offers-boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.5rem;
+
+        .offer-box {
+            overflow: hidden;
+            width: 295px;
+            height: 362px;
+            border-radius: 15px;
+            padding: 20px 12px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+
+            .top-left-bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            .bottom-right-bg {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                z-index: -1;
+            }
+
+
+            h3 {
+                color: variables.$white;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 143.9%;
+
+                span {
+                    color: variables.$white;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 143.9%;
+                }
+            }
+
+            .offer-box__bg {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 13px 0 25px 0;
+            }
+
+            .offers-footer {
+                h2 {
+                    margin-bottom: 8px;
+                    color: variables.$white;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 143.9%;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .box-one {
+            background: #3472EA;
+
+            h2 {
+                color: variables.$white;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 143.9%;
+                text-transform: uppercase;
+            }
+        }
+
+        .box-two {
+            background: #AF30C3;
+        }
+
+        .box-three {
+            background: #EF1D00;
+        }
+
+        .box-four {
+            background: #FF008B;
+        }
+    }
+}
+
+
+
+.foods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 14px;
+
+    .food {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        .food-list-style {
+            position: absolute;
+            top: 11px;
+            transform: translateY(-50%);
+            left: 0;
+            background: #50005E;
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+        }
+
+        a {
+            margin-left: 1rem;
+            color: variables.$white ;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 143.9%;
+        }
     }
 
-    .price-gray {
-        width: 15px;
-        height: 15px;
-        color: variables.$gray;
+
+}
+.mb-1rem{
+    margin-bottom: 1rem;
+}
+.box-two{
+    .food-img{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+.box-three{
+    .food-img{
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        right: 0;
+    }
+}
+.box-four{
+    .food-img{
+        position: absolute;
+        bottom: 2rem;
+        z-index: -1;
+        right: 0;
+    }
+}
+.box-two,
+.box-three,
+.box-four
+{
+    position: relative;
+    .title {
+        color: variables.$white;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .price-item {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 143.9%;
+        margin-bottom: 47px;
+
+        span {
+            color: variables.$white;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 143.9%;
+            position: relative;
+            top: -7px;
+        }
     }
 }
