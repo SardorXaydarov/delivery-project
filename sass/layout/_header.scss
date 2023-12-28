@@ -1,12 +1,17 @@
 @use '../abstracts/variables';
+
 .container {
     max-width: 1240px;
     padding: 0;
 }
+
 .header {
     background: variables.$white;
-    padding-top:24px ;
-
+    padding-top: 24px;
+    .container{
+        display: flex;
+        align-items: center;
+    }
     .header-logo {
         display: flex;
         gap: 59px;
@@ -15,6 +20,7 @@
             color: variables.$lightred;
             font-family: Inter;
             font-size: 36px;
+            padding: 0;
             font-weight: 900;
         }
     }
@@ -58,7 +64,8 @@
                 background: #FF4C34;
                 transition: all .2s ease;
                 padding: 12px 13px;
-                &:hover{
+
+                &:hover {
                     background: #ff6f5c;
                 }
             }
@@ -73,6 +80,8 @@
                 border-radius: 15px;
                 background: variables.$lightred;
                 color: variables.$white;
+                font-size: 14px;
+                font-weight: 400;
                 width: 283px;
                 height: 40px;
             }
@@ -109,6 +118,7 @@
         border: none;
     }
 }
-.navbar{
+
+.navbar {
     padding: 0;
 }
