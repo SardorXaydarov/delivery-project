@@ -175,6 +175,75 @@ body {
   padding: 0;
 }
 
+.footer {
+  margin-top: 150px;
+  background: #F2F2F2;
+  padding: 40px 0 60px 0;
+}
+.footer .footer-all__boxes {
+  display: flex;
+  gap: 197px;
+}
+.footer .footer-titles {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-titles .footer-title {
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.footer .footer-title-two {
+  position: relative;
+  left: 11px;
+}
+.footer .footer-foods__one .one {
+  padding-right: 89px;
+}
+.footer .footer-foods__one .two {
+  padding-right: 95px;
+}
+.footer .footer-foods__one .three {
+  padding-right: 90px;
+}
+.footer .footer-food {
+  display: flex;
+  height: 240px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer .footer-food a {
+  color: #1E1E1E;
+  font-size: 13px;
+}
+
+.footer-foods__two {
+  display: flex;
+  flex-direction: column;
+}
+.footer-foods__two .footer-food__two {
+  display: flex;
+  flex-direction: column;
+  height: 128px;
+  gap: 19px;
+}
+.footer-foods__two .footer-food__two a {
+  color: #1E1E1E;
+  font-size: 13px;
+}
+
+.footer-foods__two .message {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+.footer-foods__two .message a {
+  color: #1E1E1E;
+  font-size: 13px;
+}
+
 .title-box .subtitle {
   color: #1E1E1E;
   font-size: 24px;
@@ -629,4 +698,7 @@ body {
 }
 .all-restourant .title-box {
   margin-bottom: 1.5rem;
+}
+.all-restourant .all-boxes {
+  row-gap: 20px;
 }/*# sourceMappingURL=main.css.map */
