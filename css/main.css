@@ -728,6 +728,9 @@ body {
 .korzina .col-9 .navigation {
   margin-top: 0;
 }
+.korzina .korzinka-h {
+  height: 618px;
+}
 .korzina .title-box {
   display: flex;
   align-items: center;
@@ -811,7 +814,7 @@ body {
 
 .dominos-pizza {
   position: relative;
-  background: url("../../images/dominos/dominos-pizza.png");
+  background: url("../images/dominos/dominos-pizza.png");
   padding: 83px 0 32px 23px;
   margin-top: 1.5rem;
   border-radius: 15px;
@@ -879,4 +882,123 @@ body {
 }
 .restaurant-boxes .offer-box .btnn {
   margin-top: 4px;
+}
+
+.pizza {
+  margin-top: 40px;
+}
+.pizza .pizza-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pizza .pizza-box {
+  border-radius: 15px;
+  background: #F4F4F4;
+  width: 220px;
+  height: 325px;
+}
+.pizza .title {
+  color: #1E1E1E;
+  font-size: 28px;
+  font-weight: 600;
+}
+.pizza .pizza-img {
+  padding: 18px 18px 0 18px;
+  position: relative;
+}
+.pizza .pizza-img .aksiya-top {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  background: #00AE63;
+  color: #fff;
+  padding: 4px 6px;
+  gap: 6px;
+  font-size: 9px;
+  font-weight: 600;
+  top: 18px;
+  left: 18px;
+  position: absolute;
+}
+.pizza .pizza-img .aksiya-center {
+  border-radius: 15px;
+  background: #3A95FF;
+  color: #FFF;
+  font-size: 9px;
+  font-weight: 600;
+  position: absolute;
+  top: 44px;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pizza .pizza-img .aksiya-bottom {
+  border-radius: 15px;
+  background: #FF629A;
+  color: #FFF;
+  font-size: 9px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  bottom: 0;
+  right: 18px;
+  padding: 4px 6px;
+}
+.pizza .pizza-info {
+  padding: 5px 16px 16px 16px;
+}
+.pizza .pizza-info .price {
+  display: flex;
+  gap: 4px;
+}
+.pizza .pizza-info .price h4 {
+  color: #FF4C34;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.pizza .pizza-info .price del {
+  color: #ABABAB;
+  font-size: 12px;
+  position: relative;
+  top: -5px;
+  font-weight: 500;
+}
+.pizza .pizza-info .item h3 {
+  color: #1E1E1E;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.pizza .pizza-info .button {
+  width: 100%;
+}
+.pizza .pizza-info .button .btnn {
+  padding: 8px 0 7px 0;
+  width: 100%;
+}
+
+.four-box .aksiya-center {
+  top: 16px !important;
+}
+
+.all-pizza__boxes {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.all-pizza__boxes .btnn {
+  width: 137px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.combo .title-box {
+  margin-bottom: 1.5rem !important;
 }/*# sourceMappingURL=main.css.map */
