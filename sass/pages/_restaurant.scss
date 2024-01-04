@@ -26,7 +26,7 @@
     }
 
 
-    .korzinka-h{
+    .korzinka-h {
         height: 618px;
     }
 
@@ -213,11 +213,13 @@
 
 .pizza {
     margin-top: 40px;
-    .pizza-boxes{
+
+    .pizza-boxes {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .pizza-box {
         border-radius: 15px;
         background: #F4F4F4;
@@ -263,7 +265,7 @@
             align-items: center;
             gap: 6px;
         }
-        
+
 
         .aksiya-bottom {
             border-radius: 15px;
@@ -324,17 +326,18 @@
     }
 }
 
-.four-box{
-    .aksiya-center{
+.four-box {
+    .aksiya-center {
         top: 16px !important;
     }
 }
 
-.all-pizza__boxes{
+.all-pizza__boxes {
     gap: 20px;
     display: flex;
     flex-direction: column;
-    .btnn{
+
+    .btnn {
         width: 137px;
         height: 31px;
         display: flex;
@@ -343,8 +346,260 @@
     }
 }
 
-.combo{
-    .title-box{
+.combo {
+    .title-box {
         margin-bottom: 1.5rem !important;
+    }
+}
+
+
+// modal 
+.price-dialog {
+    max-width: 1003px;
+
+    .price-content {
+        padding: 2rem 3rem 2rem 2rem;
+        position: relative;
+        border-radius: 15px !important;
+
+        .modal-body {
+            padding: 0;
+            display: flex;
+            gap: 15px;
+
+            .modal-info {
+                width: 522px;
+                height: 384px;
+                overflow: hidden;
+            }
+        }
+
+        .modal-img {
+            width: 384px;
+            height: 384px;
+        }
+
+        .close-btn button {
+            position: absolute;
+            content: "";
+            top: 9px;
+            right: 16px;
+            padding: 0;
+        }
+    }
+
+    .price-footer {
+        border-top: none;
+    }
+}
+
+#pills-tab {
+    margin-bottom: 0 !important;
+    padding: 5px 16px 4px 12px;
+    border-radius: 15px;
+    background: #F4F4F4;
+    justify-content: space-between;
+
+    .nav-link {
+        color: variables.$black;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 132.9%;
+        padding: 6px 17px !important;
+        width: 155px;
+        height: 31px;
+
+        &.active {
+            border-radius: 15px !important;
+            background: #FFF;
+        }
+    }
+}
+
+.tab-two {
+    .nav-link {
+        width: 235.5px !important;
+    }
+}
+
+.price-footer__price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+
+    h2 {
+        color: #FF4C34;
+        font-size: 24px;
+        font-weight: 600;
+
+        span {
+            color: #ABABAB;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+            top: -18px;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        gap: 15px;
+
+        .btnn {
+            padding: 12px 2rem;
+        }
+
+        .many-button {
+            border-radius: 15px;
+            border: 1px solid #FF4C34;
+            padding: 12px 12px 10px 12px;
+            width: 142px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            color: variables.$black;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}
+
+.modal-info {
+    h2 {
+        color: variables.$black;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .modal-description {
+        color: #1E1E1E;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 132.9%;
+        width: 459px;
+        margin-bottom: 12px;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            color: #1E1E1E;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 132.9%;
+            margin-bottom: 4px;
+        }
+
+        .tab-two {
+            p {
+                margin-top: 12px;
+            }
+        }
+    }
+
+    .taste {
+        p {
+            color: #1E1E1E;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 132.9%;
+            margin-bottom: 15px;
+            margin-top: 12px;
+        }
+    }
+}
+
+.taste {
+    p {
+        color: #1E1E1E;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 !important;
+    }
+
+    .taste-bg {
+        border-radius: 15px;
+        background: #F4F4F4;
+        padding: 11px;
+        display: flex;
+        row-gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .taste-item {
+            width: 160px;
+            border-radius: 15px;
+            border: 1px solid #FF4C34;
+            background: #FFF;
+            padding: 14px 24px;
+
+            .how-many__item {
+                display: flex;
+                gap: 24px;
+
+                .many-button {
+                    display: flex;
+                    gap: 17px;
+                    align-items: center;
+                    color: #000;
+                    font-size: 10px;
+                    font-weight: 400;
+
+                    svg {
+                        width: 8px;
+                        height: 8px;
+                    }
+                }
+
+                h3 {
+                    color: #1E1E1E;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 132.9%;
+                }
+            }
+        }
+
+        .white {
+            background: #FFF;
+            width: 160px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+
+            p {
+                color: #1E1E1E;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 132.9%;
+            }
+
+            h3 {
+                color: #1E1E1E;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 132.9%;
+            }
+        }
+    }
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    .modal-item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .price-footer{
+        position: relative;
+        right: -405px;
     }
 }
