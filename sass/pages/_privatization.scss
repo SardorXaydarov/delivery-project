@@ -1,0 +1,358 @@
+@use '../abstracts/variables';
+
+.privatization {
+    margin-top: 50px;
+
+    .title-box {
+        display: block;
+
+        .subtitle {
+            margin-top: 50px;
+        }
+    }
+
+    .row {
+        margin-top: 2rem;
+
+        .col-8 {
+            gap: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .dostavka {
+        border-radius: 15px;
+        background: #F4F4F4;
+        padding: 2rem 1.5rem 2rem 2rem;
+
+        .title {
+            color: #1E1E1E;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .dostavka-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 1.5rem;
+
+            .dostavka-price__bg {
+                border-radius: 15px;
+                background: #FFF;
+                padding: 8px 24px;
+            }
+
+            .dostavka-price {
+                padding: 8px 24px;
+            }
+
+            h3 {
+                color: #1E1E1E;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            p {
+                color: #1E1E1E;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .subtitle-box {
+            display: flex;
+
+            svg {
+                cursor: pointer;
+            }
+
+            .subtitle {
+                color: #1E1E1E;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+
+    }
+}
+
+.adress-info {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+
+    .subtitle-box {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 6px;
+
+
+    }
+
+    .inputs {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            width: 176px;
+            padding-left: 14px;
+        }
+    }
+
+    input {
+        border-radius: 15px;
+        background: #FFF;
+        border: none;
+        outline: none;
+        height: 40px;
+    }
+
+    .big-input {
+        input {
+            width: 100%;
+            padding-left: 14px;
+        }
+    }
+
+
+}
+
+.time-dostavka {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+
+    .subtitle-box {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+}
+
+
+// card sections
+.dostavka-price {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #F4F4F4;
+    padding: 2rem 1.5rem 2rem 2rem;
+
+    .title {
+        color: #1E1E1E;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .subtitle {
+        color: #1E1E1E;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .card-number {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &>div {
+        display: flex;
+        flex-direction: column;
+
+        &>div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+
+    .promo {
+        display: flex;
+        flex-direction: column;
+
+        .balls {
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .work-servis {
+        padding-bottom: 24px;
+        border-bottom: .5px solid #bebebe;
+    }
+}
+
+.price-card {
+    gap: 16px;
+    padding-top: 24px;
+}
+
+.promo {
+    gap: 14px;
+    padding: 24px 0;
+    border-bottom: .5px solid #bebebe;
+
+    .graySubtitle {
+        color: #A1A1A1;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.pay {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 24px;
+
+    .pay-button {
+        display: flex;
+        align-items: center;
+    }
+
+    .btnn {
+        width: 191px;
+        padding: 11px 0 12px 0;
+        text-align: center;
+    }
+}
+
+.card-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: .5px solid #bebebe;
+
+    .card-bank {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .card-button {
+        button {
+            padding: 8px 16px;
+            background: #fff;
+            border-radius: 15px;
+        }
+    }
+}
+
+
+.dostavka-food {
+    border-radius: 15px;
+    background: #F4F4F4;
+    padding: 2rem 1.5rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .title-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .white-btn {
+        button {
+            border-radius: 15px;
+            background: #FFF;
+            display: flex;
+            padding: 8px 16px;
+            align-items: center;
+            color: #1E1E1E;
+            font-size: 14px;
+            font-weight: 500;
+            gap: 8px;
+        }
+    }
+
+    .food-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .img-info {
+            display: flex;
+            gap: 16px;
+
+            .food-info {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+
+                .subtitlee {
+                    color: #000;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 135.9%;
+                    width: 154px;
+                }
+
+                .subtitlee-sm {
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 132.4%;
+                    width: 188px;
+                }
+            }
+        }
+
+    }
+
+    .food-button {
+        border-radius: 15px;
+        background: #FFF;
+
+        button {
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap: 29px;
+        }
+    }
+
+    .food-price {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        span {
+            color: #ABABAB;
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+.pizza {
+    margin-top: 48px !important;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .title-box {
+            .subtitlee {
+                color: #1E1E1E;
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+}

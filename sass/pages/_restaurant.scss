@@ -1,5 +1,17 @@
 @use '../abstracts/variables';
+.korzinka-h {
+    height: 618px;
+}
 
+.title-box {
+    display: flex;
+    align-items: center;
+
+    a {
+        color: variables.$black;
+        font-size: 1rem;
+    }
+}
 .korzina {
     margin-top: 50px;
 
@@ -26,19 +38,7 @@
     }
 
 
-    .korzinka-h {
-        height: 618px;
-    }
-
-    .title-box {
-        display: flex;
-        align-items: center;
-
-        a {
-            color: variables.$black;
-            font-size: 1rem;
-        }
-    }
+    
 
     .col-3 {
         padding: 16px;
